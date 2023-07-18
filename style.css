@@ -190,6 +190,9 @@ nav li a {
   background: #ff900e;
   padding: 40px;
   text-align: center;
+  position: relative;
+  bottom: 100px;
+
 }
 
 .badge-title {
@@ -284,9 +287,21 @@ nav li a {
 
   nav,
   .team-container,
+  .features,
   .facts-card-container,
-  .sponsors-img-container {
+  .sponsors-img-container
+   {
     flex-direction: column;
+  }
+
+  .badge{
+    position: static;
+    max-width: 300px;
+  }
+
+  .fimg{
+    width: 80%;
+    margin-left: 0;
   }
   .team-img {
     display: grid;
@@ -309,6 +324,7 @@ nav li a {
 
   nav,
   .team-container,
+  .features,
   .sponsors-img-container {
     flex-direction: column;
   }
